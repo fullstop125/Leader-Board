@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet"/>
+  <title>Leader Board App</title>
+<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+<body>
+  <h1>LeaderBoard</h1>
+  <main class="main-container">
+    <div class="first-part">
+      <div class="heading">
+        <h2 class="heading-msg">Recent Scores</h2>
+        <button class="refresh" type="button">Refresh</button>
+      </div>
+      <ul class="score-data">
+        <li class="scores">Name : 100</li>
+        <li class="scores">Name : 100</li>
+        <li class="scores">Name : 100</li>
+        <li class="scores">Name : 100</li>
+        <li class="scores">Name : 100</li>
+        <li class="scores">Name : 100</li>
+        <li class="scores">Name : 100</li>
+        <li class="scores">Name : 100</li>
+      </ul>
+    </div>
+    <div class="second-part">
+      <h2 class="add-title">Add Your Score</h2>
+      <form >
+        <input type="text" name="name" placeholder="Name" required> 
+        <input type="text" name="score" placeholder="Score" required>
+        <button type="button" class="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
