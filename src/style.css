@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 100px;
+  padding-left: 20%;
+}
+
+.main-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 5%;
+}
+
+.first-part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.second-part {
+  margin-top: 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+}
+
+.refresh {
+  margin-left: auto;
+  padding: 5px;
+}
+
+.score-data {
+  border: black solid 2px;
+}
+
+.scores {
+  padding: 5px;
+}
+
+.scores:nth-child(even) {
+  background-color: lightgrey;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+form input {
+  padding: 7px;
+}
+
+.submit {
+  margin-left: auto;
+  padding: 5px;
+}
