@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome books:JavaScript Using Modules
+# Leaderboard Web App
 
-> In this project, I built a simple HTML list of To Do tasks. The list is styled according to the specifications listed later in this lesson. This simple web page is built using webpack and served by a webpack dev server.
-
+> This is a web app that allows you to see the leaderboard of the scores submitted for different players.
 
 ## Built With
 
@@ -12,10 +11,7 @@
 - JAVASCRIPT
 - WEBPACK
 - WEBPACK DEV SERVER
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- API
 
 ## Authors
 
@@ -29,7 +25,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/fullstop125/To-Do-List/issues).
+Feel free to check the [issues page](https://github.com/fullstop125/Leader-Board/issues).
 
 ## Show your support
 

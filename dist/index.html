@@ -13,25 +13,18 @@
     <div class="first-part">
       <div class="heading">
         <h2 class="heading-msg">Recent Scores</h2>
-        <button class="refresh" type="button">Refresh</button>
+        <button class="refresh" type="button" id="refresh-btn" >Refresh</button>
       </div>
-      <ul class="score-data">
-        <li class="scores">Name : 100</li>
-        <li class="scores">Name : 100</li>
-        <li class="scores">Name : 100</li>
-        <li class="scores">Name : 100</li>
-        <li class="scores">Name : 100</li>
-        <li class="scores">Name : 100</li>
-        <li class="scores">Name : 100</li>
-        <li class="scores">Name : 100</li>
+      <ul class="score-data" id="score">
+        <li class="scores">Press Refresh To Show The Data</li>
       </ul>
     </div>
     <div class="second-part">
       <h2 class="add-title">Add Your Score</h2>
       <form >
-        <input type="text" name="name" placeholder="Name" required> 
-        <input type="text" name="score" placeholder="Score" required>
-        <button type="button" class="submit">Submit</button>
+        <input type="text" name="name" placeholder="Name"  id="user-name" required> 
+        <input type="text" name="score" placeholder="Score" id="user-score" required>
+        <button type="button" class="submit" id="add-data">Submit</button>
       </form>
     </div>
   </main>

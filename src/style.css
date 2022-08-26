@@ -12,7 +12,6 @@ h1 {
 }
 
 .main-container {
-  height: 60vh;
   display: flex;
   justify-content: center;
   gap: 10%;
@@ -51,6 +50,7 @@ ul {
 
 .scores {
   padding: 5px;
+  text-align: center;
 }
 
 .scores:nth-child(even) {
@@ -71,4 +71,10 @@ form input {
 .submit {
   margin-left: auto;
   padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
