@@ -7,7 +7,9 @@ const getData = async () => {
   const { result } = await response.json();
   let string = '';
   result.map((score) => {
-    string += ` <li class="scores"> ${score.user}: ${score.score} </li>`;
+    string += ` <tr><td class="scores"> ${score.user}</td>
+                <td class="scores">${score.score}</td> </tr>
+    `;
     return score;
   });
   scores.innerHTML = string;
