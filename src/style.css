@@ -48,12 +48,20 @@ ul {
   border: black solid 2px;
 }
 
-.scores {
+th {
   padding: 5px;
-  text-align: center;
 }
 
-.scores:nth-child(even) {
+td {
+  padding-left: 5px;
+}
+
+td:first-child,
+th:first-child {
+  padding-left: 5px;
+}
+
+tr:nth-child(even) {
   background-color: lightgrey;
 }
 
@@ -77,4 +85,8 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.username {
+  margin-right: 10px;
 }
